@@ -39,24 +39,38 @@ Lowest-scoring checks:
 - **Upstream**: <https://github.com/cgdb/cgdb>
 - **License**: GPL-2.0
 
+## Release
+
+- **Latest**: `v0.8.0` (2026-10-05)
+- **Last commit**: 2026-02-27
+- **Assets in release**: 3
+
 ## Popularity
 
-- **Stars**: 1,845 · **Forks**: 195 · **Open issues**: 257 · **Contributors**: 36
+- **Stars**: 1,846 · **Forks**: 195 · **Open issues**: 261 · **Contributors**: 36
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 26 · **Open PRs**: 16 · **Closed issues**: 227 · **Open issues**: 30 · **Commits**: 1452
+- **Releases**: 6 · **Merged PRs**: 26 · **Open PRs**: 18 · **Closed issues**: 228 · **Open issues**: 33 · **Commits**: 1452
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-08-06 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 90d | 2026-07-07 | 0 | 0 | 1 | 0 | 0 | 0 |
-| last180d | 2026-04-08 | 0 | 0 | 1 | 0 | 0 | 0 |
-| 360d | 2025-10-10 | 0 | 0 | 3 | 1 | 0 | 1 |
-| last720d | 2024-10-15 | 0 | 0 | 5 | 5 | 8 | 1 |
+| 30d | 2026-09-06 | 6 | 0 | 2 | 1 | 3 | 0 |
+| last60d | 2026-08-07 | 6 | 0 | 3 | 1 | 3 | 0 |
+| 90d | 2026-07-08 | 6 | 0 | 3 | 1 | 3 | 0 |
+| last180d | 2026-04-09 | 6 | 0 | 3 | 1 | 3 | 0 |
+| 360d | 2025-10-11 | 6 | 0 | 5 | 2 | 3 | 1 |
+| last720d | 2024-10-16 | 6 | 0 | 7 | 6 | 11 | 1 |
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [cgdb-0.8.0.tar.gz](https://github.com/cgdb/cgdb/releases/download/v0.8.0/cgdb-0.8.0.tar.gz) | 757.0 KiB | `native/unknown` |
+| [cgdb-0.8.0.tar.gz.md5](https://github.com/cgdb/cgdb/releases/download/v0.8.0/cgdb-0.8.0.tar.gz.md5) | 52 B | `other` |
+| [cgdb-0.8.0.tar.gz.sha1](https://github.com/cgdb/cgdb/releases/download/v0.8.0/cgdb-0.8.0.tar.gz.sha1) | 60 B | `other` |
 
 ## Improve this data
 
@@ -67,4 +81,4 @@ Install metadata for cgdb lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T05:52:58Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T06:48:27Z._
