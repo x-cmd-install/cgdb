@@ -14,7 +14,7 @@ x install cgdb
 
 ## Code insight
 
-Total: **23,962** lines of code across **101** files in the top 5 languages.
+Total: **23,963** lines of code across **101** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -26,13 +26,13 @@ Total: **23,962** lines of code across **101** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **2 / 10**
+Overall score: **2.1 / 10**
 
 Lowest-scoring checks:
 
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
-- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v0.8.0` (2026-10-05)
-- **Last commit**: 2026-02-27
+- **Last commit**: 2026-10-06
 - **Assets in release**: 3
 
 ## Popularity
 
-- **Stars**: 1,846 · **Forks**: 195 · **Open issues**: 261 · **Contributors**: 36
+- **Stars**: 1,847 · **Forks**: 195 · **Open issues**: 261 · **Contributors**: 36
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 26 · **Open PRs**: 18 · **Closed issues**: 228 · **Open issues**: 33 · **Commits**: 1452
+- **Releases**: 6 · **Merged PRs**: 27 · **Open PRs**: 14 · **Closed issues**: 228 · **Open issues**: 33 · **Commits**: 1453
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 6 | 0 | 2 | 1 | 3 | 0 |
-| last60d | 2026-08-07 | 6 | 0 | 3 | 1 | 3 | 0 |
-| 90d | 2026-07-08 | 6 | 0 | 3 | 1 | 3 | 0 |
-| last180d | 2026-04-09 | 6 | 0 | 3 | 1 | 3 | 0 |
-| 360d | 2025-10-11 | 6 | 0 | 5 | 2 | 3 | 1 |
-| last720d | 2024-10-16 | 6 | 0 | 7 | 6 | 11 | 1 |
+| 30d | 2026-09-07 | 6 | 1 | 1 | 1 | 3 | 1 |
+| last60d | 2026-08-08 | 6 | 1 | 2 | 1 | 3 | 1 |
+| 90d | 2026-07-09 | 6 | 1 | 2 | 1 | 3 | 1 |
+| last180d | 2026-04-10 | 6 | 1 | 2 | 1 | 3 | 1 |
+| 360d | 2025-10-12 | 6 | 1 | 4 | 2 | 3 | 2 |
+| last720d | 2024-10-17 | 6 | 1 | 5 | 6 | 11 | 2 |
 
 ## Release assets
 
@@ -81,4 +81,4 @@ Install metadata for cgdb lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T06:48:27Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T06:11:57Z._
