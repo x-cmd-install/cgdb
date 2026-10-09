@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 775168,
       "digest": "sha256:0d38b524d377257b106bad6d856d8ae3304140e1ee24085343e6ddf1b65811f1",
-      "download_count": 12,
+      "download_count": 23,
       "created_at": "2026-10-05T23:02:49Z",
       "updated_at": "2026-10-05T23:02:49Z",
       "browser_download_url": "https://github.com/cgdb/cgdb/releases/download/v0.8.0/cgdb-0.8.0.tar.gz"
