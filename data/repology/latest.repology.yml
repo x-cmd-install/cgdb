@@ -1,3 +1,28 @@
+- repo: kali_rolling
+  subrepo: main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-3
+  status: newest
+  maintainers:
+    - sramacher@debian.org
+  categories:
+    - devel
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-bp155.1.8
+  status: newest
+  summary: Curses debugger
+  licenses:
+    - GPL-2.0-or-later
+  categories:
+    - Development/Tools/Debuggers
 - repo: alpine_3_17
   subrepo: main
   srcname: cgdb
@@ -37,19 +62,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-3
-  status: newest
-  maintainers:
-    - sramacher@debian.org
-  categories:
-    - devel
 - repo: alpine_3_18
   subrepo: main
   srcname: cgdb
@@ -102,6 +114,13 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
+- repo: homebrew
+  srcname: cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: null
+  status: newest
+  summary: Curses-based interface to the GNU Debugger
 - repo: alpine_3_20
   subrepo: main
   srcname: cgdb
@@ -350,6 +369,19 @@
     - sramacher@debian.org
   categories:
     - devel
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-3
+  status: newest
+  maintainers:
+    - sramacher@debian.org
+  categories:
+    - devel
 - repo: debian_14
   subrepo: forky/main
   srcname: cgdb
@@ -388,6 +420,17 @@
   maintainers:
     - robertle@semistable.com
 - repo: deepin_25
+  subrepo: main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-3
+  status: newest
+  maintainers:
+    - sramacher@debian.org
+- repo: deepin_25
   subrepo: community
   srcname: cgdb
   binnames:
@@ -400,17 +443,6 @@
     - sramacher@debian.org
   categories:
     - misc
-- repo: deepin_25
-  subrepo: main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-3
-  status: newest
-  maintainers:
-    - sramacher@debian.org
 - repo: devuan_4_0
   subrepo: chimaera/main
   srcname: cgdb
@@ -459,6 +491,13 @@
     - GPLv2
   categories:
     - Development/Debuggers
+- repo: homebrew
+  srcname: cgdb
+  visiblename: cgdb
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Curses-based interface to the GNU Debugger
 - repo: epel_8
   srcname: cgdb
   visiblename: cgdb
@@ -630,33 +669,6 @@
   origversion: null
   status: newest
   summary: Console front-end to the GNU debugger
-- repo: homebrew
-  srcname: cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: null
-  status: newest
-  summary: Curses-based interface to the GNU Debugger
-- repo: homebrew
-  srcname: cgdb
-  visiblename: cgdb
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Curses-based interface to the GNU Debugger
-- repo: kali_rolling
-  subrepo: main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-3
-  status: newest
-  maintainers:
-    - sramacher@debian.org
-  categories:
-    - devel
 - repo: liguros_stable
   srcname: dev-debug/cgdb
   visiblename: dev-debug/cgdb
@@ -773,22 +785,22 @@
   binname: cgdb
   visiblename: cgdb
   version: 0.8.0
-  origversion: 0.8.0-2
+  origversion: 0.8.0-1
   status: newest
   summary: Curses-based interface to the GNU Debugger
   licenses:
-    - GPL-2.0-or-later
+    - GPL
 - repo: manjaro_testing
   subrepo: extra
   srcname: cgdb
   binname: cgdb
   visiblename: cgdb
   version: 0.8.0
-  origversion: 0.8.0-2
+  origversion: 0.8.0-1
   status: newest
   summary: Curses-based interface to the GNU Debugger
   licenses:
-    - GPL-2.0-or-later
+    - GPL
 - repo: manjaro_unstable
   subrepo: extra
   srcname: cgdb
@@ -900,18 +912,6 @@
     - GPL
   categories:
     - Debugging
-- repo: opensuse_leap_15_5
-  subrepo: main/oss
-  srcname: cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-bp155.1.8
-  status: newest
-  summary: Curses debugger
-  licenses:
-    - GPL-2.0-or-later
-  categories:
-    - Development/Tools/Debuggers
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: cgdb
