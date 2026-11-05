@@ -30,9 +30,9 @@ Overall score: **2.4 / 10**
 
 Lowest-scoring checks:
 
+- **Token-Permissions** (-1/10) — No tokens found
 - **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 - **Dangerous-Workflow** (-1/10) — no workflows found
-- **Packaging** (-1/10) — packaging workflow not detected
 
 ## Source
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 1,849 · **Forks**: 197 · **Open issues**: 262 · **Contributors**: 36
+- **Stars**: 1,850 · **Forks**: 197 · **Open issues**: 263 · **Contributors**: 36
 
 ## Totals (cumulative)
 
-- **Releases**: 6 · **Merged PRs**: 27 · **Open PRs**: 14 · **Closed issues**: 230 · **Open issues**: 32 · **Commits**: 1453
+- **Releases**: 6 · **Merged PRs**: 27 · **Open PRs**: 14 · **Closed issues**: 231 · **Open issues**: 32 · **Commits**: 1453
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 6 | 1 | 1 | 0 | 1 | 0 |
-| last60d | 2026-09-05 | 6 | 1 | 1 | 3 | 2 | 1 |
-| 90d | 2026-08-06 | 6 | 1 | 2 | 3 | 2 | 1 |
-| last180d | 2026-05-08 | 6 | 1 | 2 | 3 | 2 | 1 |
-| 360d | 2025-11-09 | 6 | 1 | 4 | 4 | 2 | 2 |
-| last720d | 2024-11-14 | 6 | 1 | 5 | 8 | 8 | 2 |
+| 30d | 2026-10-06 | 0 | 0 | 0 | 1 | 1 | 0 |
+| last60d | 2026-09-06 | 6 | 1 | 1 | 4 | 2 | 1 |
+| 90d | 2026-08-07 | 6 | 1 | 2 | 4 | 2 | 1 |
+| last180d | 2026-05-09 | 6 | 1 | 2 | 4 | 2 | 1 |
+| 360d | 2025-11-10 | 6 | 1 | 4 | 5 | 2 | 2 |
+| last720d | 2024-11-15 | 6 | 1 | 5 | 9 | 8 | 2 |
 
 ## Release assets
 
@@ -100,4 +100,4 @@ Install metadata for cgdb lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:38:58Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:02:40Z._
