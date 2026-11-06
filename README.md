@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 0 | 0 | 1 | 1 | 0 |
-| last60d | 2026-09-06 | 6 | 1 | 1 | 4 | 2 | 1 |
-| 90d | 2026-08-07 | 6 | 1 | 2 | 4 | 2 | 1 |
-| last180d | 2026-05-09 | 6 | 1 | 2 | 4 | 2 | 1 |
-| 360d | 2025-11-10 | 6 | 1 | 4 | 5 | 2 | 2 |
-| last720d | 2024-11-15 | 6 | 1 | 5 | 9 | 8 | 2 |
+| 30d | 2026-10-07 | 0 | 0 | 0 | 1 | 0 | 0 |
+| last60d | 2026-09-07 | 6 | 1 | 1 | 4 | 2 | 1 |
+| 90d | 2026-08-08 | 6 | 1 | 2 | 4 | 2 | 1 |
+| last180d | 2026-05-10 | 6 | 1 | 2 | 4 | 2 | 1 |
+| 360d | 2025-11-11 | 6 | 1 | 4 | 5 | 2 | 2 |
+| last720d | 2024-11-16 | 6 | 1 | 5 | 9 | 8 | 2 |
 
 ## Release assets
 
@@ -71,25 +71,6 @@ Lowest-scoring checks:
 | [cgdb-0.8.0.tar.gz](https://github.com/cgdb/cgdb/releases/download/v0.8.0/cgdb-0.8.0.tar.gz) | 757.0 KiB | `native/unknown` |
 | [cgdb-0.8.0.tar.gz.md5](https://github.com/cgdb/cgdb/releases/download/v0.8.0/cgdb-0.8.0.tar.gz.md5) | 52 B | `other` |
 | [cgdb-0.8.0.tar.gz.sha1](https://github.com/cgdb/cgdb/releases/download/v0.8.0/cgdb-0.8.0.tar.gz.sha1) | 60 B | `other` |
-
-## Distribution status
-
-Reported by **108** distros on [repology.org](https://repology.org/project/cgdb). **82** are ✅ on the latest upstream release, **20** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.8.0` | ✅ latest |
-| Debian 14 | `0.8.0` | ✅ latest |
-| Debian 13 | `0.8.0` | ✅ latest |
-| Ubuntu 26.04 LTS | `0.8.0` | ✅ latest |
-| Ubuntu 24.04 LTS | `0.8.0` | ✅ latest |
-| Arch | `0.8.0` | ✅ latest |
-| Homebrew | `0.8.0` | ✅ latest |
-| Fedora rawhide | `0.8.0` | ✅ latest |
-| Nix unstable | `0.8.0` | ✅ latest |
-| Void | `0.8.0` | ✅ latest |
-| Alpine edge | `0.8.0` | ✅ latest |
-| openSUSE Tumbleweed | `0.8.0` | ✅ latest |
 
 ## Improve this data
 
@@ -100,4 +81,4 @@ Install metadata for cgdb lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:02:40Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T07:11:22Z._
