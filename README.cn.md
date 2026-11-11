@@ -26,13 +26,13 @@ x install cgdb
 
 ## OpenSSF Scorecard 评分
 
-总评分: **2.4 / 10**
+总评分: **2.5 / 10**
 
 评分最低的几项:
 
-- **Token-Permissions** (-1/10) — No tokens found
-- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
+- **Packaging** (-1/10) — packaging workflow not detected
 - **Dangerous-Workflow** (-1/10) — no workflows found
+- **Code-Review** (0/10) — Found 0/30 approved changesets -- score normalized to 0
 
 ## 源代码
 
@@ -57,12 +57,12 @@ x install cgdb
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 0 | 0 | 0 | 1 | 0 | 0 |
-| last60d | 2026-09-11 | 6 | 1 | 1 | 4 | 2 | 1 |
-| 90d | 2026-08-12 | 6 | 1 | 2 | 4 | 2 | 1 |
-| last180d | 2026-05-14 | 6 | 1 | 2 | 4 | 2 | 1 |
-| 360d | 2025-11-15 | 6 | 1 | 4 | 5 | 2 | 2 |
-| last720d | 2024-11-20 | 6 | 1 | 5 | 9 | 8 | 2 |
+| 30d | 2026-10-12 | 0 | 0 | 0 | 1 | 0 | 0 |
+| last60d | 2026-09-12 | 6 | 1 | 1 | 4 | 2 | 1 |
+| 90d | 2026-08-13 | 6 | 1 | 2 | 4 | 2 | 1 |
+| last180d | 2026-05-15 | 6 | 1 | 2 | 4 | 2 | 1 |
+| 360d | 2025-11-16 | 6 | 1 | 4 | 5 | 2 | 2 |
+| last720d | 2024-11-21 | 6 | 1 | 5 | 9 | 8 | 2 |
 
 ## Release 资产
 
@@ -100,4 +100,4 @@ cgdb 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261110.yml` · 2026-11-10T07:34:52Z._
+_数据快照: `data/card/261111.yml` · 2026-11-11T06:40:51Z._
