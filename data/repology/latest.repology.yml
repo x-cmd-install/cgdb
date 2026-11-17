@@ -1,14 +1,53 @@
-- repo: nix_stable_25_05
+- repo: deepin_25
+  subrepo: community
   srcname: cgdb
+  binnames:
+    - cgdb
   visiblename: cgdb
   version: 0.8.0
-  origversion: null
+  origversion: 0.8.0-3
   status: newest
-  summary: Curses interface to gdb
   maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-or-later
+    - sramacher@debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-3
+  status: newest
+  maintainers:
+    - sramacher@debian.org
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.6.7
+  origversion: 0.6.7-2
+  status: outdated
+  maintainers:
+    - robertle@semistable.com
+  categories:
+    - devel
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-3
+  status: newest
+  maintainers:
+    - sramacher@debian.org
+  categories:
+    - devel
 - repo: manjaro_unstable
   subrepo: extra
   srcname: cgdb
@@ -20,17 +59,97 @@
   summary: Curses-based interface to the GNU Debugger
   licenses:
     - GPL-2.0-or-later
-- repo: nix_stable_25_11
+- repo: pureos_amber
+  subrepo: amber/main
   srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.6.7
+  origversion: 0.6.7-2
+  status: outdated
+  maintainers:
+    - robertle@semistable.com
+  categories:
+    - devel
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.6.7
+  origversion: 0.6.7-2
+  status: outdated
+  maintainers:
+    - robertle@semistable.com
+  categories:
+    - devel
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: cgdb
+  binnames:
+    - cgdb
   visiblename: cgdb
   version: 0.8.0
-  origversion: null
+  origversion: 0.8.0-3
   status: newest
-  summary: Curses interface to gdb
   maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-or-later
+    - sramacher@debian.org
+  categories:
+    - devel
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-1
+  status: newest
+  maintainers:
+    - sramacher@debian.org
+  categories:
+    - devel
+- repo: raspbian_stable
+  subrepo: main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-3
+  status: newest
+  maintainers:
+    - sramacher@debian.org
+  categories:
+    - devel
+- repo: raspbian_testing
+  subrepo: main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-3
+  status: newest
+  maintainers:
+    - sramacher@debian.org
+  categories:
+    - devel
+- repo: parrot
+  subrepo: parrot/main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-3
+  status: newest
+  maintainers:
+    - sramacher@debian.org
+  categories:
+    - devel
 - repo: alpine_3_17
   subrepo: main
   srcname: cgdb
@@ -213,6 +332,19 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-3
+  status: newest
+  maintainers:
+    - sramacher@debian.org
+  categories:
+    - devel
 - repo: alpine_3_24
   subrepo: main
   srcname: cgdb
@@ -252,17 +384,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
-- repo: msys2_msys2
-  subrepo: x86_64
-  srcname: cgdb
-  binname: cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-2
-  status: newest
-  summary: Curses-based interface to the GNU Debugger
-  licenses:
-    - spdx:GPL-2.0-or-later
 - repo: alpine_edge
   subrepo: main
   srcname: cgdb
@@ -407,19 +528,6 @@
     - sramacher@debian.org
   categories:
     - devel
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-3
-  status: newest
-  maintainers:
-    - sramacher@debian.org
-  categories:
-    - devel
 - repo: deepin_unstable
   subrepo: main
   srcname: cgdb
@@ -431,67 +539,6 @@
   status: outdated
   maintainers:
     - robertle@semistable.com
-- repo: deepin_25
-  subrepo: community
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-3
-  status: newest
-  maintainers:
-    - sramacher@debian.org
-  categories:
-    - misc
-- repo: deepin_25
-  subrepo: main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-3
-  status: newest
-  maintainers:
-    - sramacher@debian.org
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.6.7
-  origversion: 0.6.7-2
-  status: outdated
-  maintainers:
-    - robertle@semistable.com
-  categories:
-    - devel
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-3
-  status: newest
-  maintainers:
-    - sramacher@debian.org
-  categories:
-    - devel
-- repo: nix_stable_24_05
-  srcname: cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: null
-  status: newest
-  summary: A curses interface to gdb
-  maintainers:
-    - rahul@gopinath.org
-  licenses:
-    - GPL-2.0-or-later
 - repo: epel_7
   srcname: cgdb
   visiblename: cgdb
@@ -614,6 +661,20 @@
     - GPL-2.0-only
   categories:
     - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-17.fc45
+  status: newest
+  summary: CGDB is a curses-based interface to the GNU Debugger (GDB)
+  licenses:
+    - GPL-2.0-only
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: cgdb
@@ -640,18 +701,6 @@
     - serio.jeffrey@gmail.com
   categories:
     - devel
-- repo: pkgsrc_2026_2
-  srcname: devel/cgdb
-  binname: cgdb
-  visiblename: devel/cgdb
-  version: 0.7.1
-  origversion: null
-  status: outdated
-  summary: Curses-based interface to the GNU Debugger (GDB)
-  maintainers:
-    - kamil@netbsd.org
-  categories:
-    - devel
 - repo: gentoo
   srcname: dev-debug/cgdb
   visiblename: dev-debug/cgdb
@@ -665,17 +714,6 @@
     - GPL-2
   categories:
     - dev-debug
-- repo: nix_stable_24_11
-  srcname: cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: null
-  status: newest
-  summary: Curses interface to gdb
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - GPL-2.0-or-later
 - repo: gentoo
   srcname: dev-debug/cgdb
   visiblename: dev-debug/cgdb
@@ -856,6 +894,61 @@
   summary: Curses-based interface to the GNU Debugger
   licenses:
     - GPL-2.0-or-later
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: cgdb
+  binname: cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-2
+  status: newest
+  summary: Curses-based interface to the GNU Debugger
+  licenses:
+    - spdx:GPL-2.0-or-later
+- repo: nix_stable_24_05
+  srcname: cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: null
+  status: newest
+  summary: A curses interface to gdb
+  maintainers:
+    - rahul@gopinath.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_24_11
+  srcname: cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: null
+  status: newest
+  summary: Curses interface to gdb
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_25_05
+  srcname: cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: null
+  status: newest
+  summary: Curses interface to gdb
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0-or-later
+- repo: nix_stable_25_11
+  srcname: cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: null
+  status: newest
+  summary: Curses interface to gdb
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - GPL-2.0-or-later
 - repo: nix_stable_26_05
   srcname: cgdb
   visiblename: cgdb
@@ -967,28 +1060,18 @@
     - sramacher@debian.org
   categories:
     - devel
-- repo: parrot
-  subrepo: parrot/main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-3
-  status: newest
+- repo: pkgsrc_2026_2
+  srcname: devel/cgdb
+  binname: cgdb
+  visiblename: devel/cgdb
+  version: 0.7.1
+  origversion: null
+  status: outdated
+  summary: Curses-based interface to the GNU Debugger (GDB)
   maintainers:
-    - sramacher@debian.org
+    - kamil@netbsd.org
   categories:
     - devel
-- repo: wikidata
-  srcname: Q28974764
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: null
-  status: newest
-  summary: free software
-  licenses:
-    - GNU General Public License, version 2.0
 - repo: pkgsrc_2026_3
   srcname: devel/cgdb
   binname: cgdb
@@ -1019,84 +1102,6 @@
   version: 0.8.0
   origversion: 0.8.0-1
   status: newest
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.6.7
-  origversion: 0.6.7-2
-  status: outdated
-  maintainers:
-    - robertle@semistable.com
-  categories:
-    - devel
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.6.7
-  origversion: 0.6.7-2
-  status: outdated
-  maintainers:
-    - robertle@semistable.com
-  categories:
-    - devel
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-3
-  status: newest
-  maintainers:
-    - sramacher@debian.org
-  categories:
-    - devel
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-1
-  status: newest
-  maintainers:
-    - sramacher@debian.org
-  categories:
-    - devel
-- repo: raspbian_stable
-  subrepo: main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-3
-  status: newest
-  maintainers:
-    - sramacher@debian.org
-  categories:
-    - devel
-- repo: raspbian_testing
-  subrepo: main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-3
-  status: newest
-  maintainers:
-    - sramacher@debian.org
-  categories:
-    - devel
 - repo: slackbuilds
   srcname: development/cgdb
   visiblename: development/cgdb
@@ -1334,3 +1339,12 @@
     - meator.dev@gmail.com
   licenses:
     - GPL-2.0-only
+- repo: wikidata
+  srcname: Q28974764
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: null
+  status: newest
+  summary: free software
+  licenses:
+    - GNU General Public License, version 2.0

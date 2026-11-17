@@ -1,0 +1,167 @@
+about:
+  description: "Console front-end to the GNU debugger"
+  license: GPL-2.0
+  homepage: 
+  head: ae240a2
+  archived: false
+  latestVersion: "v0.8.0"
+  latestRelease: "v0.8.0"
+  latestPrerelease: ""
+  collectedAt: 2026-11-17T08:05:20Z
+timeline:
+  created: 2012-05-04
+  lastCommit: 2026-10-06
+  lastVersion: 2026-10-05
+  lastRelease: 2026-10-05
+  lastPrerelease: 
+popularity:
+  star: 1851
+  watcher: 53
+  fork: 197
+  release: 6
+  contributor: 36
+  pullRequest: 123
+  issue: 263
+language:
+  C: 588033
+  C++: 513195
+  M4: 17542
+  Shell: 11532
+  Makefile: 4596
+  Rust: 1949
+  Go: 1134
+  Ada: 64
+totalBytes: 1138045
+recent:
+  last30d:
+    since: 2026-10-18
+    release: 0
+    mergedPR: 0
+    openPR: 0
+    closedIssue: 1
+    openIssue: 0
+    commit: 0
+  last60d:
+    since: 2026-09-18
+    release: 6
+    mergedPR: 1
+    openPR: 1
+    closedIssue: 4
+    openIssue: 2
+    commit: 1
+  last90d:
+    since: 2026-08-19
+    release: 6
+    mergedPR: 1
+    openPR: 2
+    closedIssue: 4
+    openIssue: 2
+    commit: 1
+  last180d:
+    since: 2026-05-21
+    release: 6
+    mergedPR: 1
+    openPR: 2
+    closedIssue: 4
+    openIssue: 2
+    commit: 1
+  last360d:
+    since: 2025-11-22
+    release: 6
+    mergedPR: 1
+    openPR: 4
+    closedIssue: 5
+    openIssue: 2
+    commit: 2
+  last720d:
+    since: 2024-11-27
+    release: 6
+    mergedPR: 1
+    openPR: 5
+    closedIssue: 8
+    openIssue: 8
+    commit: 2
+total:
+  release: 6
+  mergedPR: 27
+  openPR: 14
+  closedIssue: 231
+  openIssue: 32
+  commit: 1453
+---
+path: /home/runner/.x-repo/github.com/cgdb/cgdb
+collectedAt: 2026-11-17T08:05:23Z
+loc:
+  Cpp:
+    code: 10597
+    comments: 2427
+    blanks: 2602
+    files: 36
+  C:
+    code: 9678
+    comments: 2274
+    blanks: 1715
+    files: 10
+  CHeader:
+    code: 2831
+    comments: 5282
+    blanks: 1149
+    files: 38
+  Sh:
+    code: 246
+    comments: 50
+    blanks: 51
+    files: 6
+  Automake:
+    code: 201
+    comments: 10
+    blanks: 31
+    files: 11
+  Bitbake:
+    code: 153
+    comments: 0
+    blanks: 0
+    files: 3
+  M4:
+    code: 147
+    comments: 17
+    blanks: 23
+    files: 1
+  Rust:
+    code: 56
+    comments: 9
+    blanks: 20
+    files: 1
+  Go:
+    code: 48
+    comments: 13
+    blanks: 7
+    files: 1
+  Ada:
+    code: 6
+    comments: 0
+    blanks: 0
+    files: 1
+  Autoconf:
+    code: 0
+    comments: 8
+    blanks: 2
+    files: 1
+  Markdown:
+    code: 0
+    comments: 118
+    blanks: 36
+    files: 3
+  Text:
+    code: 0
+    comments: 132
+    blanks: 47
+    files: 4
+total:
+  code: 23963
+  comments: 10342
+  blanks: 5683
+  files: 116
+---
+
+---
