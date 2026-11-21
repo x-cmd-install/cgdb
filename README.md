@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 0 | 0 | 0 | 1 | 0 | 0 |
-| last60d | 2026-09-21 | 6 | 1 | 1 | 4 | 2 | 1 |
-| 90d | 2026-08-22 | 6 | 1 | 2 | 4 | 2 | 1 |
-| last180d | 2026-05-24 | 6 | 1 | 2 | 4 | 2 | 1 |
-| 360d | 2025-11-25 | 6 | 1 | 4 | 5 | 2 | 2 |
-| last720d | 2024-11-30 | 6 | 1 | 5 | 8 | 8 | 2 |
+| 30d | 2026-10-22 | 0 | 0 | 0 | 1 | 0 | 0 |
+| last60d | 2026-09-22 | 6 | 1 | 1 | 4 | 2 | 1 |
+| 90d | 2026-08-23 | 6 | 1 | 2 | 4 | 2 | 1 |
+| last180d | 2026-05-25 | 6 | 1 | 2 | 4 | 2 | 1 |
+| 360d | 2025-11-26 | 6 | 1 | 4 | 5 | 2 | 2 |
+| last720d | 2024-12-01 | 6 | 1 | 5 | 8 | 8 | 2 |
 
 ## Release assets
 
@@ -74,7 +74,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **107** distros on [repology.org](https://repology.org/project/cgdb). **83** are ✅ on the latest upstream release, **18** are ⚠️ on an older version.
+Reported by **106** distros on [repology.org](https://repology.org/project/cgdb). **83** are ✅ on the latest upstream release, **17** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -100,4 +100,4 @@ Install metadata for cgdb lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T08:30:06Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T07:23:07Z._
