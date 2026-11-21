@@ -20,43 +20,28 @@
     - fallback-mnt-nix@repology
   licenses:
     - GPL-2.0-or-later
-- repo: nix_stable_25_11
+- repo: msys2_msys2
+  subrepo: x86_64
+  srcname: cgdb
+  binname: cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-2
+  status: newest
+  summary: Curses-based interface to the GNU Debugger
+  licenses:
+    - spdx:GPL-2.0-or-later
+- repo: nix_stable_24_05
   srcname: cgdb
   visiblename: cgdb
   version: 0.8.0
   origversion: null
   status: newest
-  summary: Curses interface to gdb
+  summary: A curses interface to gdb
   maintainers:
-    - fallback-mnt-nix@repology
+    - rahul@gopinath.org
   licenses:
     - GPL-2.0-or-later
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-3
-  status: newest
-  maintainers:
-    - sramacher@debian.org
-  categories:
-    - devel
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-3
-  status: newest
-  maintainers:
-    - sramacher@debian.org
-  categories:
-    - devel
 - repo: alpine_3_17
   subrepo: main
   srcname: cgdb
@@ -122,82 +107,83 @@
     - ncopa@alpinelinux.org
   licenses:
     - GPL-2.0-or-later
-- repo: epel_7
+- repo: alpine_3_19
+  subrepo: main
   srcname: cgdb
+  binname: cgdb-doc
+  visiblename: cgdb-doc
+  version: 0.8.0
+  origversion: 0.8.0-r2
+  status: newest
+  summary: The Curses Debugger (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: cgdb
+  binname: cgdb
   visiblename: cgdb
-  version: 0.6.8
-  origversion: 0.6.8-1.el7
+  version: 0.8.0
+  origversion: 0.8.0-r2
+  status: newest
+  summary: The Curses Debugger
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_20
+  subrepo: main
+  srcname: cgdb
+  binname: cgdb-doc
+  visiblename: cgdb-doc
+  version: 0.8.0
+  origversion: 0.8.0-r2
+  status: newest
+  summary: The Curses Debugger (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: cgdb
+  binname: cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-r3
+  status: newest
+  summary: The Curses Debugger
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: alpine_3_21
+  subrepo: main
+  srcname: cgdb
+  binname: cgdb-doc
+  visiblename: cgdb-doc
+  version: 0.8.0
+  origversion: 0.8.0-r3
+  status: newest
+  summary: The Curses Debugger (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - GPL-2.0-or-later
+- repo: cygwin
+  srcname: cgdb
+  binname: cgdb
+  visiblename: cgdb
+  version: 0.7.1+20211106+git61e3606
+  origversion: 0.7.1+20211106+git61e3606-1
   status: outdated
-  summary: CGDB is a curses-based interface to the GNU Debugger (GDB)
-  licenses:
-    - GPLv2
+  summary: A curses-based interface to the GNU Debugger (GDB)
+  maintainers:
+    - jari.aalto@cygwin
   categories:
-    - Development/Debuggers
-- repo: alpine_3_19
-  subrepo: main
-  srcname: cgdb
-  binname: cgdb-doc
-  visiblename: cgdb-doc
-  version: 0.8.0
-  origversion: 0.8.0-r2
-  status: newest
-  summary: The Curses Debugger (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: cgdb
-  binname: cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-r2
-  status: newest
-  summary: The Curses Debugger
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_20
-  subrepo: main
-  srcname: cgdb
-  binname: cgdb-doc
-  visiblename: cgdb-doc
-  version: 0.8.0
-  origversion: 0.8.0-r2
-  status: newest
-  summary: The Curses Debugger (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: cgdb
-  binname: cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-r3
-  status: newest
-  summary: The Curses Debugger
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
-- repo: alpine_3_21
-  subrepo: main
-  srcname: cgdb
-  binname: cgdb-doc
-  visiblename: cgdb-doc
-  version: 0.8.0
-  origversion: 0.8.0-r3
-  status: newest
-  summary: The Curses Debugger (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - GPL-2.0-or-later
+    - Devel
 - repo: alpine_3_22
   subrepo: main
   srcname: cgdb
@@ -369,18 +355,6 @@
     - nikitaivanov@aur
   licenses:
     - GPL
-- repo: cygwin
-  srcname: cgdb
-  binname: cgdb
-  visiblename: cgdb
-  version: 0.7.1+20211106+git61e3606
-  origversion: 0.7.1+20211106+git61e3606-1
-  status: outdated
-  summary: A curses-based interface to the GNU Debugger (GDB)
-  maintainers:
-    - jari.aalto@cygwin
-  categories:
-    - Devel
 - repo: debian_11
   subrepo: bullseye/main
   srcname: cgdb
@@ -446,17 +420,6 @@
     - sramacher@debian.org
   categories:
     - devel
-- repo: deepin_unstable
-  subrepo: main
-  srcname: cgdb
-  binnames:
-    - cgdb
-  visiblename: cgdb
-  version: 0.6.7
-  origversion: 0.6.7-2
-  status: outdated
-  maintainers:
-    - robertle@semistable.com
 - repo: deepin_25
   subrepo: community
   srcname: cgdb
@@ -494,6 +457,30 @@
     - robertle@semistable.com
   categories:
     - devel
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-3
+  status: newest
+  maintainers:
+    - sramacher@debian.org
+  categories:
+    - devel
+- repo: epel_7
+  srcname: cgdb
+  visiblename: cgdb
+  version: 0.6.8
+  origversion: 0.6.8-1.el7
+  status: outdated
+  summary: CGDB is a curses-based interface to the GNU Debugger (GDB)
+  licenses:
+    - GPLv2
+  categories:
+    - Development/Debuggers
 - repo: epel_8
   srcname: cgdb
   visiblename: cgdb
@@ -658,17 +645,6 @@
     - GPL-2
   categories:
     - dev-debug
-- repo: msys2_msys2
-  subrepo: x86_64
-  srcname: cgdb
-  binname: cgdb
-  visiblename: cgdb
-  version: 0.8.0
-  origversion: 0.8.0-2
-  status: newest
-  summary: Curses-based interface to the GNU Debugger
-  licenses:
-    - spdx:GPL-2.0-or-later
 - repo: gentoo
   srcname: dev-debug/cgdb
   visiblename: dev-debug/cgdb
@@ -844,15 +820,15 @@
   summary: Curses-based interface to the GNU Debugger
   licenses:
     - GPL-2.0-or-later
-- repo: nix_stable_24_05
+- repo: nix_stable_25_11
   srcname: cgdb
   visiblename: cgdb
   version: 0.8.0
   origversion: null
   status: newest
-  summary: A curses interface to gdb
+  summary: Curses interface to gdb
   maintainers:
-    - rahul@gopinath.org
+    - fallback-mnt-nix@repology
   licenses:
     - GPL-2.0-or-later
 - repo: nix_stable_26_05
@@ -955,6 +931,19 @@
     - devel
 - repo: parrot
   subrepo: parrot/main
+  srcname: cgdb
+  binnames:
+    - cgdb
+  visiblename: cgdb
+  version: 0.8.0
+  origversion: 0.8.0-3
+  status: newest
+  maintainers:
+    - sramacher@debian.org
+  categories:
+    - devel
+- repo: parrot
+  subrepo: parrot-updates/main
   srcname: cgdb
   binnames:
     - cgdb
